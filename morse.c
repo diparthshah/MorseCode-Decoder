@@ -77,7 +77,7 @@ int main()
     printf(" \n click 1 to continue\n");
     scanf("%d",&y);
   
-    }while(y!=0);
+        }while(y!=0);
 
    return 0;
 }
@@ -92,7 +92,7 @@ void display()
      {
    	printf("%c",string[i]);
      }
-    printf("\n---------------------------------------------");
+        printf("\n---------------------------------------------");
     // increamenting top of the stack address
     top++;
 }
